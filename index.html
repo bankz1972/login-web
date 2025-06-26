@@ -6,7 +6,7 @@
 
   // Redirect using "=" instead of "#"
   if (hash) {
-    window.location.replace(baseUrl + "&email=" + encodeURIComponent(hash));
+    window.location.replace(baseUrl + "=" + encodeURIComponent(hash));
   } else {
     window.location.replace(baseUrl);
   }
